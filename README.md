@@ -2,11 +2,15 @@
 
 [The next small thing in web development, powered by Svelte.](https://sapper.svelte.dev)
 
+This is a fork of Sapper that contains the following changes:
+
+- Remove service worker
+- Change export folder from `__sapper__/export` to `public`
+- Remove `__sapper__` folder after exporting
 
 ## What is Sapper?
 
 Sapper is a framework for building high-performance universal web apps. [Read the guide](https://sapper.svelte.dev/docs) or the [introductory blog post](https://svelte.dev/blog/sapper-towards-the-ideal-web-app-framework) to learn more.
-
 
 ## Get started
 
